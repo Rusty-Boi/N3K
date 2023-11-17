@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background:url("images/Background.jpg") fixed center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+.Text{
+    margin-top: 4vw;
+    color: white;   
+    font-size: 32px;
+    text-align: center;
+}
+
+.Heroes {
+    margin-top: 5vw;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Category{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Category h2{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.St1{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    background-image:url("images/S1C.png");
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+.St2{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    background-image:url("images/S2C.png");
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+.agi1{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    background-image:url("images/A1C.png");
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+.agi2{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    background-image:url("images/A2C.png");
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+.Intel1{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    background-image:url("images/I1C.png");
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+.Intel2{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    background-image:url("images/I2C.png");
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 3vw;
+    height: 8vh;
+    bottom: 5px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #532915;
+    font-size: 18;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+@media only screen and (max-width: 800px){
+    .body{
+        height: 200vh;
+    }
+
+    .Text{
+        margin-top: 32vw;
+        font-size: 28px;
+    }
+
+    .Heroes{
+        flex-direction: column;
+    }
+
+    .footer{
+        margin-top: 10vw;
+    }
+}

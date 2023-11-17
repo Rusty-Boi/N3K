@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+    background:url("images/Background.jpg") fixed center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+/* News css */
+
+.Featured{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+.News1,
+.News2,
+.News3{
+    padding: 20px;
+    margin-top: 5vw;
+    width: 80%;
+}
+
+.release{
+    float: left;
+    margin-left: 15vw;
+    margin-right: 5vw;
+    width: 400px;
+    height: 280px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-image:url("images/news1.jpg");
+}
+
+.News1 h4,
+.News2 h4,
+.News3 h4{
+    margin-left: 15px;
+    margin-top: 5vw;
+    font-size: 32px;
+    display: block;
+    color:white;
+}
+
+.News1 p,
+.News2 p,
+.News3 p{
+    font-size: 26px;
+    margin-left: 15px;
+    display: block;
+    color:white;
+}
+
+.tournament{
+    float: left;
+    margin-left: 15vw;
+    margin-right: 5vw;
+    width: 400px;
+    height: 250px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-image:url("images/News2.webp");
+}
+
+.map{
+    float: left;
+    margin-left: 15vw;
+    margin-right: 5vw;
+    width: 400px;
+    height: 250px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-image:url("images/Game\ Map.jpg");
+}
+
+.footer {
+    margin-top: 5vw;
+    height: 8vh;
+    bottom: 5px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #532915;
+    font-size: 18;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+@media only screen and (max-width: 800px){
+    .body{
+        height: 200vh;
+    }
+    .Featured{
+        margin-top: 25vw;
+        height: 100%;
+    }
+    .release{
+        float:none;
+        margin-left: 5vw;
+    }
+    .News1 h4,
+    .News2 h4,
+    .News3 h4,
+    .News1 p,
+    .News2 p,
+    .News3 p{
+        margin-left: 10vw;
+    }
+
+    .tournament{
+        float:none;
+        margin-left: 5vw;
+    }
+
+    .map{
+        float:none;
+        margin-left: 5vw;
+    }
+
+    .footer{
+        margin-top: 10vw;
+    }
+}

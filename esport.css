@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 150vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background:url("images/Background.jpg") fixed center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+.region h3{
+    text-align: right;
+    color: white;
+    margin: 40px;
+    font-size: 28px;
+}
+
+.schedule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.schedule h2{
+    font-size: 36px;
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+.Sch1,
+.Sch2,
+.Sch3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    margin-right: auto;
+    width: 80%;
+    background-color: rgba(104, 104, 104, 0.346);
+}
+
+.Sch3{
+    margin-top: 2vw;
+}
+
+.virtus{
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-image:url("images/virtus.webp");
+}
+
+.fnatic {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-image:url("images/fnatic.png");
+}
+
+.tsm {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-image:url("images/TSM\ esports.png");
+}
+
+.ts {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-image:url("images/Team\ Secret\ Esports.png");
+}
+
+.tl{
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-image:url("images/Team\ Liquid\ Esports.png");
+}
+
+.al{
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-image:url("images/Alliance\ esports.png");
+}
+
+/* .box1 {
+    width: 50%;
+    height: 200px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 10px solid #000;
+    box-sizing: border-box;
+} */
+
+.Sch1 h3,
+.Sch2 h3,
+.Sch3 h3{
+    font-size: 32px;
+    display: block;
+    color:white;
+}
+
+.Sch1 h4,
+.Sch2 h4,
+.Sch3 h4{
+    font-size: 32px;
+    display: block;
+    color:white;
+}
+
+.Sch1 h5,
+.Sch2 h5,
+.Sch3 h5{
+    font-size: 32px;
+    display: block;
+    color:white;
+}
+
+.footer {
+    height: 8vh;
+    bottom: 5px;
+    margin-top: 12vw;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #532915;
+    font-size: 18;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+
+@media only screen and (max-width: 800px){
+    .body{
+        height: 200vh;
+    }
+
+    .Sch1,
+    .Sch2,
+    .Sch3 {
+        flex-direction: column;
+    }
+
+    .Sch1 h3,
+    .Sch2 h3,
+    .Sch3 h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .Sch1 h4,
+    .Sch2 h4,
+    .Sch3 h4{
+        filter:opacity(0%)
+    }
+    .footer{
+        margin-top: 10vw;
+    }
+    .region h3{
+        text-align: center;
+    }
+}
